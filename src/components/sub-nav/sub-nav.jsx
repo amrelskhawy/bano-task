@@ -20,7 +20,7 @@ const SubNav = () => {
             <ul className='hidden 2xs:flex gap-4 text-xl text-[#8A8A8A] before:absolute before:w-full before:h-[2px] before:bg-[#8A8A8A] before:bottom-0 before:left-0'>
                 {
                     Links.map((link,i) => 
-                        (<li key={i} className={i ==0 ? 'active text-[#000] font-bold before:absolute before:w-[170px] before:h-[2px] before:bg-black before:bottom-0 before:left-0' : null} >{link}</li>)
+                        (<li key={i} className={i === 0 ? 'active text-[#000] font-bold before:absolute before:w-[170px] before:h-[2px] before:bg-black before:bottom-0 before:left-0' : null} >{link}</li>)
                         )
                 }
             </ul>

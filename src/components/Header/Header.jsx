@@ -4,7 +4,6 @@ import { RiArrowDropDownFill } from 'react-icons/ri'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { ReactComponent as Logo } from '../../assets/images/Union 1.svg'
 import { SignUpContext } from '../../context/signup.context'
-import './Header.css'
 const Header = () => {
     const {isOpen,setIsOpen} = useContext(SignUpContext)
     const toggle = () => setIsOpen(!isOpen)
@@ -15,7 +14,7 @@ const Header = () => {
                 W <Logo className='w-6 h-6 mx-[2px] inline-block bottom-[2px]' />
                 rld
             </div>
-            <div className='searchBar sm:w-60 hidden xs:flex items-center lg:w-full max-w-[500px] bg-[#f2f2f2] rounded-3xl p-2 text-[#7A7A7A] '>
+            <div className='  hidden xs:flex items-center w-full max-w-[600px] bg-[#f2f2f2] rounded-3xl p-2 text-[#7A7A7A] '>
                 <BiSearch className='w-[10%]' />
                 <input
                     type='text'

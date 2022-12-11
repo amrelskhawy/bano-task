@@ -20,7 +20,7 @@ const PostBox = ({ post }) => {
                 <h3 className='max-w-[90%] text-2xl '>{headline}</h3>
                 <p className='text-xl font-normal text-[#5C5C5C]'>{description}</p>
                 <BsThreeDots className='absolute right-[6%] top-[26.5%]' />
-                <div className='flex justify-between items-center'>
+                <div className='flex md:flex-col md:gap-2 justify-between items-center'>
                     <div className='flex items-center font-bold gap-4 lg:gap-4 xs:gap-2 xs:text-sm lg:text-lg'>
                         <img className='avatar xs:w-[30px] ' alt='' src={avatar} />
                         {person_name}

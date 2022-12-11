@@ -11,7 +11,7 @@ const Home = () => {
         <div className=''>
             <Landing />
             <SubNav />
-            <div className='container xs:grid xs:grid-cols-2 xs:gap-8 relative'>
+            <div className='max-w-[1440px] mx-auto w-full xs:grid xs:grid-cols-2 xs:gap-8  relative'>
                 <PostsContainer />
                 <Recommended />
             </div>

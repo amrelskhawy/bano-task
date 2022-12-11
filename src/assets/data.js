@@ -29,6 +29,7 @@ const data = {
         cover_5: cover5,
     }
 }
+const { avatars, covers } = data
 
 export const RECOMMENDED = [
     { name: 'Leisure', pic: profile5 },
@@ -38,7 +39,6 @@ export const RECOMMENDED = [
 
 ]
 
-const { avatars, covers } = data
 export default [
     {
         article_icon: '',
