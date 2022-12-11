@@ -1,0 +1,41 @@
+.img-cover {
+    width: 100%;
+    height: 440px;
+    background: url('../../assets/images/covers/main-cover.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.img-cover::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+    left: 0;
+    top: 0;
+}
+
+.img-cover .content {
+    position: relative;
+    color: #fff;
+    height: 47px;
+    top: 55%;
+    
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: left;
+}
+.img-cover .content h3 {
+    font-size: 42px;
+    font-weight: 600;
+
+}
+.img-cover .content p {
+    font-size: 22px;
+    position: relative;
+    left: 5px;
+    font-weight: 100;
+}
